@@ -1,0 +1,42 @@
+html {
+	overflow-x: hidden;
+}
+
+body {
+	margin: 2.5%;
+	background: #B5B5B5;
+}
+
+ @keyframes color-animation {
+    0% {
+       background: #B5B5B5;
+    }
+    50% {
+       background: #9A9A9A;
+    } 
+    100% {
+       background: #656565;
+    } 
+ }
+
+.block {
+   width: 100%;
+   height: 100%;
+   animation: color-animation 30s infinite linear alternate;
+}
+
+p {
+	font-size: 1.3em !important;
+}
+
+.green {
+	color: green !important;
+}
+
+.yellow {
+	color: #85751F !important;
+}
+
+.copy-to-clipboard {
+	cursor: pointer;
+}
